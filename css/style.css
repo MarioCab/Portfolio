@@ -76,6 +76,7 @@
 
 .content {
   font-family: "Outfit", sans-serif;
+  display: flex;
   margin: auto;
   margin-top: 25px;
   padding-top: 20px;
@@ -99,13 +100,23 @@
   white-space: nowrap;
   text-align: center;
   margin-bottom: 20px;
+  justify-content: center;
+}
+
+.contentText {
+  float: left;
 }
 
 .contentImage {
-  width: 50%;
-  height: 50%;
+  margin: auto;
+  width: 90%;
+  height: 90%;
   display: flex;
   float: right;
+}
+
+.contentImage img {
+  border-radius: 25px;
 }
 
 footer {
