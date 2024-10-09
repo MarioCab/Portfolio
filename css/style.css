@@ -75,9 +75,47 @@
 }
 
 .content {
-  display: flex;
+  font-family: "Outfit", sans-serif;
   margin: auto;
+  margin-top: 25px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 80%;
   height: 70%;
   justify-content: center;
+  background-color: rgba(38, 39, 39, 0.701);
+  border-radius: 25px;
+}
+
+.content p {
+  color: white;
+  font-size: 30px;
+}
+
+.content h1 {
+  color: white;
+  font-size: 50px;
+  white-space: nowrap;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contentImage {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  float: right;
+}
+
+footer {
+  color: #cbcbcb;
+  font-family: "Playwrite CA", cursive;
+  margin: auto;
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
 }
