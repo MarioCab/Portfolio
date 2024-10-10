@@ -78,6 +78,7 @@
 .content {
   font-family: "Outfit", sans-serif;
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
   margin-top: 25px;
   padding-top: 20px;
@@ -91,18 +92,19 @@
 }
 
 #welcomeText {
-  float: left;
   width: 70%;
+  float: left;
 }
 
 #welcomeText p {
   color: white;
-  font-size: 45px;
+  font-size: 35px;
+  text-align: center;
 }
 
 #welcomeText h1 {
   color: white;
-  font-size: 70px;
+  font-size: 60px;
   white-space: nowrap;
   text-align: center;
   margin-bottom: 20px;
@@ -112,13 +114,37 @@
 #welcomeImage {
   margin: auto;
   display: flex;
-  float: right;
+  float: left;
   justify-content: right;
   width: 30%;
 }
 
 #welcomeImage img {
   border-radius: 25px;
+  height: 25%;
+  width: 50%;
+}
+
+#skills {
+  color: white;
+  float: right;
+}
+
+#skills h2 {
+  font-size: 30px;
+  white-space: nowrap;
+  text-align: center;
+  margin-bottom: 15px;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+#skills ul {
+  list-style-type: none;
+}
+
+#skills li {
+  font-size: 20px;
 }
 
 #projects {
@@ -133,6 +159,7 @@
   text-align: center;
   margin-bottom: 20px;
   justify-content: center;
+  text-decoration: underline;
 }
 
 .column {
@@ -156,6 +183,29 @@
 .column li {
   margin-bottom: 10px;
   font-size: 20px;
+  margin-left: 10px;
+}
+
+#discordImg {
+  margin-top: 50px;
+  height: 15%;
+  width: 40%;
+}
+
+#blogImg {
+  margin-bottom: 50px;
+  height: 15%;
+  width: 40%;
+}
+
+#memeImg {
+  margin-top: 50px;
+  height: 15%;
+  width: 40%;
+}
+
+.column a img:hover {
+  border: solid yellow;
 }
 
 footer {
