@@ -91,12 +91,12 @@
 
 .content p {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .content h1 {
   color: white;
-  font-size: 50px;
+  font-size: 70px;
   white-space: nowrap;
   text-align: center;
   margin-bottom: 20px;
@@ -105,14 +105,15 @@
 
 .contentText {
   float: left;
+  width: 70%;
 }
 
 .contentImage {
   margin: auto;
-  width: 90%;
-  height: 90%;
   display: flex;
   float: right;
+  justify-content: right;
+  width: 30%;
 }
 
 .contentImage img {
