@@ -211,6 +211,21 @@
   border: solid yellow;
 }
 
+table {
+  width: 90%;
+  height: 40%;
+  text-align: center;
+  color: white;
+}
+
+table th {
+  font-size: 30px;
+}
+
+table td {
+  margin-top: 1px;
+}
+
 footer {
   color: #cbcbcb;
   font-family: "Playwrite CA", cursive;
