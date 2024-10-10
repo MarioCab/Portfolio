@@ -128,6 +128,9 @@
 #skills {
   color: white;
   float: right;
+  border: solid white 0.5px;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 #skills h2 {
