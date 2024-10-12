@@ -18,7 +18,7 @@
 }
 
 .navbar {
-  width: 60%;
+  width: 90%;
   height: 75px;
   margin: auto;
   display: flex;
@@ -45,7 +45,7 @@
 }
 
 .navLinks {
-  width: 400px;
+  width: 90%;
   float: left;
   height: 70px;
 }
@@ -59,7 +59,8 @@
 
 .navLinks ul li {
   list-style: none;
-  margin-left: 62px;
+  width: 100%;
+  margin: auto;
   font-size: 35px;
 }
 
@@ -790,10 +791,9 @@ footer {
     font-size: 30px;
   }
 }
-
-@media screen and (min-width: ) {
+@media screen and (max-width: 1600px) {
   .initials {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .content {
@@ -802,15 +802,15 @@ footer {
   }
 
   .navbar {
-    width: 100%;
-    height: 60px;
+    width: 90%;
+    height: 55px;
   }
   .navLinks {
     width: 100%;
   }
   .navLinks ul li {
     margin: auto;
-    font-size: 30px;
+    font-size: 25px;
   }
   #welcomeText {
     width: 70%;
@@ -818,7 +818,7 @@ footer {
   }
 
   #welcomeText p {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   #welcomeText h1 {
@@ -826,11 +826,8 @@ footer {
     margin-bottom: 20px;
   }
 
-  #welcomeImage {
-    display: none;
-  }
   footer {
-    font-size: 15px;
+    font-size: 20px;
     width: 80%;
   }
 
@@ -855,18 +852,21 @@ footer {
     font-size: 15px;
   }
   #projects li {
-    font-size: 13px;
+    font-size: 16px;
   }
   #discordImg {
-    display: none;
+    height: 20%;
+    width: 80%;
   }
 
   #blogImg {
-    display: none;
+    height: 20%;
+    width: 80%;
   }
 
   #memeImg {
-    display: none;
+    height: 20%;
+    width: 80%;
   }
 
   #educationHeader {
@@ -874,37 +874,37 @@ footer {
   }
 
   .schoolRow1 h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .schoolRow1 p {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .schoolRow2 h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .schoolRow2 p {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .schoolRow3 h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .schoolRow3 p {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 10px;
   }
 
   #schoolImg {
-    height: 20%;
+    height: 30%;
     width: 80%;
   }
 
   #workExp p {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   table td {
