@@ -84,7 +84,7 @@
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  width: 80%;
+  width: 95%;
   height: 70%;
   justify-content: center;
   background-color: rgba(38, 39, 39, 0.701);
@@ -175,6 +175,7 @@
 .column h2 {
   text-decoration: underline;
   font-size: 35px;
+  color: white;
 }
 
 .column p {
@@ -207,7 +208,7 @@
   width: 40%;
 }
 
-.column a img:hover {
+.column img:hover {
   border: solid yellow;
 }
 
@@ -247,7 +248,7 @@
   width: 90%;
   height: 10%;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: right;
 }
 
 .schoolRow2 h2 {
@@ -265,7 +266,7 @@
   width: 90%;
   height: 10%;
   margin-bottom: 30px;
-  text-align: right;
+  text-align: left;
 }
 
 .schoolRow3 h2 {
@@ -280,48 +281,40 @@
 }
 
 #schoolImg {
-  height: 30%;
-  width: 30%;
+  height: 35%;
+  width: 35%;
 }
 
-#personalHeader {
+#workExp {
+  width: 100%;
+  height: 100%;
+}
+
+#workExp h1 {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
+  white-space: nowrap;
+  text-align: center;
+  margin-bottom: 20px;
+  justify-content: center;
   text-decoration: underline;
-  text-align: center;
-  justify-content: center;
-  width: 100%;
-  height: 5%;
 }
-#familySection {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 40%;
-  justify-content: center;
-  text-align: center;
+
+#workExp h2 {
   color: white;
-}
-
-#familySection h2 {
   font-size: 30px;
+  white-space: nowrap;
+  text-align: left;
+  margin-bottom: 20px;
+  justify-content: left;
+  text-decoration: underline;
 }
 
-#familySection img {
-  width: 100%;
-  height: 70%;
-}
-
-#hobbySection {
-  width: 100%;
-  height: 40%;
-  justify-content: center;
-  text-align: center;
+#workExp p {
   color: white;
-}
-
-#hobbySection h2 {
   font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 5%;
 }
 
 table {
@@ -373,4 +366,424 @@ footer {
   justify-content: center;
   text-align: center;
   width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+  .initials {
+    font-size: 12px;
+  }
+
+  .content {
+    width: 95%;
+    height: 75%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 30px;
+  }
+  .navLinks {
+    width: 100%;
+  }
+  .navLinks ul li {
+    margin: auto;
+    font-size: 9px;
+  }
+  #welcomeText {
+    width: 100%;
+    float: left;
+  }
+
+  #welcomeText p {
+    font-size: 15px;
+  }
+
+  #welcomeText h1 {
+    font-size: 20px;
+  }
+
+  #welcomeImage {
+    display: none;
+  }
+
+  #skills {
+    height: 40%;
+  }
+
+  #skills h2 {
+    font-size: 20px;
+  }
+
+  #skills li {
+    font-size: 13px;
+  }
+  footer {
+    font-size: 10px;
+    width: 80%;
+  }
+
+  #projects {
+    width: 90%;
+    height: 90%;
+  }
+
+  #projects h1 {
+    font-size: 20px;
+  }
+
+  .column {
+    width: 90%;
+    padding: 10px;
+    float: left;
+    text-align: center;
+  }
+
+  #skills li {
+    width: 33%;
+  }
+
+  .column h2 {
+    font-size: 15px;
+  }
+
+  .column p {
+    font-size: 14px;
+  }
+
+  .column li {
+    display: none;
+  }
+  #projects li {
+    font-size: 13px;
+  }
+  #discordImg {
+    display: none;
+  }
+
+  #blogImg {
+    display: none;
+  }
+
+  #memeImg {
+    display: none;
+  }
+
+  #educationHeader {
+    font-size: 20px;
+  }
+
+  .schoolRow1 h2 {
+    font-size: 20px;
+  }
+
+  .schoolRow1 p {
+    font-size: 20px;
+  }
+
+  .schoolRow2 h2 {
+    font-size: 20px;
+  }
+
+  .schoolRow2 p {
+    font-size: 20px;
+  }
+
+  .schoolRow3 h2 {
+    font-size: 20px;
+  }
+
+  .schoolRow3 p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  #schoolImg {
+    height: 20%;
+    width: 95%;
+  }
+  #workExp h1 {
+    font-size: 20px;
+  }
+  #workExp h2 {
+    font-size: 18px;
+  }
+
+  #workExp p {
+    font-size: 16px;
+  }
+
+  table td {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .contactImg {
+    height: 30%;
+    width: 80%;
+  }
+
+  #contactText {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: ) {
+  .initials {
+    font-size: 15px;
+  }
+
+  .content {
+    width: 95%;
+    height: 75%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 30px;
+  }
+  .navLinks {
+    width: 100%;
+  }
+  .navLinks ul li {
+    margin: auto;
+    font-size: 20px;
+  }
+  #welcomeText {
+    width: 70%;
+    float: left;
+  }
+
+  #welcomeText p {
+    font-size: 20px;
+  }
+
+  #welcomeText h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  #welcomeImage {
+    display: none;
+  }
+  footer {
+    font-size: 15px;
+    width: 80%;
+  }
+
+  #projects {
+    width: 90%;
+    height: 90%;
+  }
+
+  #projects h1 {
+    font-size: 30px;
+  }
+
+  .column h2 {
+    font-size: 25px;
+  }
+
+  .column p {
+    font-size: 16px;
+  }
+
+  .column li {
+    font-size: 15px;
+  }
+  #projects li {
+    font-size: 13px;
+  }
+  #discordImg {
+    display: none;
+  }
+
+  #blogImg {
+    display: none;
+  }
+
+  #memeImg {
+    display: none;
+  }
+
+  #educationHeader {
+    font-size: 30px;
+  }
+
+  .schoolRow1 h2 {
+    font-size: 20px;
+  }
+
+  .schoolRow1 p {
+    font-size: 20px;
+  }
+
+  .schoolRow2 h2 {
+    font-size: 20px;
+  }
+
+  .schoolRow2 p {
+    font-size: 20px;
+  }
+
+  .schoolRow3 h2 {
+    font-size: 20px;
+  }
+
+  .schoolRow3 p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  #schoolImg {
+    height: 20%;
+    width: 80%;
+  }
+
+  #workExp p {
+    font-size: 24px;
+  }
+
+  table td {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .contactImg {
+    height: 50%;
+    width: 90%;
+  }
+
+  #contactText {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: ) {
+  .initials {
+    font-size: 15px;
+  }
+
+  .content {
+    width: 95%;
+    height: 75%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 60px;
+  }
+  .navLinks {
+    width: 100%;
+  }
+  .navLinks ul li {
+    margin: auto;
+    font-size: 30px;
+  }
+  #welcomeText {
+    width: 70%;
+    float: left;
+  }
+
+  #welcomeText p {
+    font-size: 30px;
+  }
+
+  #welcomeText h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  #welcomeImage {
+    display: none;
+  }
+  footer {
+    font-size: 15px;
+    width: 80%;
+  }
+
+  #projects {
+    width: 90%;
+    height: 90%;
+  }
+
+  #projects h1 {
+    font-size: 30px;
+  }
+
+  .column h2 {
+    font-size: 25px;
+  }
+
+  .column p {
+    font-size: 16px;
+  }
+
+  .column li {
+    font-size: 15px;
+  }
+  #projects li {
+    font-size: 13px;
+  }
+  #discordImg {
+    display: none;
+  }
+
+  #blogImg {
+    display: none;
+  }
+
+  #memeImg {
+    display: none;
+  }
+
+  #educationHeader {
+    font-size: 30px;
+  }
+
+  .schoolRow1 h2 {
+    font-size: 20px;
+  }
+
+  .schoolRow1 p {
+    font-size: 20px;
+  }
+
+  .schoolRow2 h2 {
+    font-size: 20px;
+  }
+
+  .schoolRow2 p {
+    font-size: 20px;
+  }
+
+  .schoolRow3 h2 {
+    font-size: 20px;
+  }
+
+  .schoolRow3 p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  #schoolImg {
+    height: 20%;
+    width: 80%;
+  }
+
+  #workExp p {
+    font-size: 24px;
+  }
+
+  table td {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .contactImg {
+    height: 50%;
+    width: 90%;
+  }
+
+  #contactText {
+    font-size: 30px;
+  }
 }
